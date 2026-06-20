@@ -1,0 +1,14 @@
+services:
+  sql-playground:
+    image: postgres:18
+    container_name: sql_playground_db
+    ports:
+      - "5454:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: playground
+    volumes:
+      - playground_db_data:/var/lib/postgresql
+volumes:
+  playground_db_data:
