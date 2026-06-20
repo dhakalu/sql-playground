@@ -13,7 +13,8 @@ Randomly generated sales data. Contains a table named `sales` with columns:
 | id | unique number | no |
 | product_name | name of the product sold | no | 
 | cost | dollar amount at which the product was bought by store | no | 
-| price | dollar amoynt at which the product was sold to the customer | no | 
+| price | dollar amoynt at which the product was sold to the customer | no |
+| sold_on | Date on which the sales was made | no |  
 
 
 ## Starting play ground 
